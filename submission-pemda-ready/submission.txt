@@ -1,0 +1,20 @@
+Nama    : Puspita
+Email   : baharipuspita@apps.ipb.ac.id
+
+Deskripsi:
+ETL Pipeline sederhana untuk mengambil data produk kompetitor
+Fashion Studio (https://fashion-studio.dicoding.dev).
+
+Data yang diambil:
+- Title    : Nama produk
+- Price    : Harga dalam USD dan IDR (kurs 1 USD = Rp 16.000)
+- Colors   : Jumlah warna tersedia
+- Size     : Ukuran produk
+- Gender   : Gender produk
+- Rating   : Penilaian konsumen
+
+Cara menjalankan:
+  pip install -r requirements.txt
+  python main.py
+
+Note: pastikan berada di folder tempat anda menyimpan, agar tidak terjadi error saat running.
